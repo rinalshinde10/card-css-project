@@ -12,20 +12,136 @@
         flex-wrap: wrap;
     }
     .item{
-            background-color:rgb(217, 249, 249);
+            background-color:rgb(232, 251, 251);
             height: 390px;
             width: 320px;
             margin: 5px;
             border: solid 1px rgb(175, 175, 175);
             border-radius: 10px;
         }
+        .main-img1{
+            border-radius:10px 10px 0px 0px ;
+            margin-bottom: 15px;
+        }
+        .project-heading1{
+            font-size: 15px;  
+            font-weight: 600;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        .sub-container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .course-name{
+            background-color: rgb(190, 198, 237);
+            padding: 5px;
+            margin-right: 80px;    
+            border-radius:5px ;
+            color: rgb(18, 67, 189);
+           
+        }
+        .project-info{
+            
+            margin: 5px;
+            color: rgb(86, 84, 84);
+        }
+         .tech-info{
+            display: flex;
+        
+            justify-content: space-evenly;
+        }
+        .tech-item{
+            display: flex;
+            height: 30px;
+            width: 25px;
+            font-size: 15px;
+            font-weight: 600;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border: solid 1px gray;
+            border-radius: 7px;
+            background-color: rgb(199, 219, 228);
+            border-color: rgb(130, 183, 208);
+        }
+        .profile-info{
+            padding-bottom: 3px;
+          
+        }
+        .calendar-info{
+            padding-left: 3px;
+       
+           
+        }
+        .profile{
+            padding-left: 80px;
+            font-size: 16px;
+          
+        }
+        .profile-photo{
+            border-radius: 50%;
+            margin-right: 5px;
+         
+        }
+       .additional{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
+       .additional-sub-info-1{
+        display: flex;
+        align-items: center;
+       }
+        .additional-sub-info-2{
+            padding-left: 100px;
+            font-size: 20px;
+            color: rgb(44, 133, 222);
+            cursor: pointer;
+        }
+        
 </style>
 </head>
 <body>
     <div class="main-container">
         <div class="item">
-       
-        </div>
+       <img src="./images/project-img1.png" width="320px" height="130px" class="main-img1"/>
+      <div class="sub-container">
+             <span class="project-heading1">InfoTechShop</span>
+             
+             <div class="course-name">Internship Cohort Program 6.0</div>
+             
+             <p class="project-info">This project serves as the foundation for an e-commerce website specializing in the sale of electronic gadgets. With a...</p>
+
+             <div class="tech-info">
+                 <div class="tech-item"><img src="./images/html.logo.png" width="20px"/> HTML</div>
+                 <div class="tech-item"><img src="./images/css.logo.png" width="20px"/> CSS</div>
+                 <div class="tech-item"> <img src="./images/github.logo.png" width="20px"  /> Github</div>
+             </div>
+             <div class="profile-info">       
+                 <img src="./images/calender.png" width="15px" />
+                 <span class="calendar-info">Apr 2024 </span>
+                <span class="profile">
+                    <img src="./images/profile-photo.webp" width="20px" class="profile-photo"/>
+                    Vaibhavi Hole</span><br/>
+             </div>
+             <hr/>
+             <div class="additional">
+                <div class="additional-sub-info-1">
+                <img src="./images/deafult-clap-logo.svg" width="20px" />
+                <span style="margin-right: 5px;">45</span>
+                <img src="./images/commit.logo.svg" width="24px" />
+                <span  style="margin-right: 5px;">8</span>
+                <img src="./images/share.logo.png" width="15px" />
+               </div>
+               <div>
+                <span class="additional-sub-info-2">see more</span> 
+                </div>       
+             </div>
+            </div> 
+      </div>
         <div class="item">2</div>
         <div class="item">3</div>
     </div>
